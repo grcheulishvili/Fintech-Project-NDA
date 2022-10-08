@@ -1,0 +1,17 @@
+scikit-learn==0.21.3
+Flask
+gunicorn
+itsdangerous
+Jinja2
+click
+joblib
+MarkupSafe
+numpy
+pickle-mixin
+scipy
+sklearn
+threadpoolctl
+Werkzeug
+gensim
+
+
