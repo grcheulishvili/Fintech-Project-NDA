@@ -6,7 +6,28 @@
 ბაზის არსებობის შემთხვევაში სიზუსტის მაჩვენებელი გაიზრდება.
 
 ## პროექტის სტრუქტურა:
+```bash
+.
+└── CarRatingSystem-CRS/
+    ├── client/
+    │   ├── static/
+    │   │   ├── images/
+    │   │   │   └── logo.png
+    │   │   ├── script.js
+    │   │   └── style.css
+    │   └── templates/
+    │       └── index.html
+    ├── server/
+    │   ├── __pycache__
+    │   ├── data/
+    │   │   ├── CRS_Model.pickle   - გაწვრთნილი მოდელი
+    │   │   └── svetebi.json       - ე.წ. Columns
+    │   └── util.py                - მონაცემთა გამოთხოვა & დაგზავნა
+    ├── app.py                     - პროგრამის საწყისი წერტილი
+    ├── requirements.txt           - საჭირო ბიბლიოთეკები
+    └── us_2017_db.csv             - მონაცემთა ბაზა
 
+```
 
 # *შენიშვნა*:
 --------
